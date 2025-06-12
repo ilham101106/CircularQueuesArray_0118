@@ -101,36 +101,4 @@ public:
 
         }
 
-        cout<<"\nElements in the queue are...\n";
-
-        //jika front_posisition <= REAR posisition, iterasi dari front hingga REAR
-        if (FRONT_posisition <= REAR_posisition)
-        {
-            while (FRONT_posisition <= REAR_posisition)
-            {
-                cout<<queue_array[FRONT_posisition]<<" ";
-                FRONT_posisition++;
-            }
-            cout<<endl;
-        }
-        else
-        {
-            //JIKA FRONT_posisition  > rear_posisition , iterasi dari FRONT hingga akhir array
-            while (FRONT_posisition <= max -1 )
-            {
-                cout<<queue_array[FRONT_posisition]<<" ";
-            }
-
-
-            FRONT_posisition = 0;
-
-            while (FRONT_posisition <= REAR_posisition)
-            {
-                cout<<queue_array[FRONT_posisition]<<" ";
-                FRONT_posisition++;
-            }
-            cout<<endl;
-        }
-        
-    }    
-};
+         
