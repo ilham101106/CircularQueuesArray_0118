@@ -7,9 +7,9 @@
  * 
  * @section operations
  * project ini memiliki beberapa operasi antara lain:
- * 1.insert
- * 2.delete
- * 3.display
+ * 1. insert
+ * 2. delete
+ * 3. display
  * 
  * @section cara penggunaan 
  * Berikut beberapa menu yang bisa digunakan:
@@ -19,6 +19,7 @@
  * 4. exit
  * 
  * 
+
  * @author profil
  * - nama : ilham saputra
  * - nim : 20240140118
